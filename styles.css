@@ -13,9 +13,13 @@
     --soft-blue: #e7f5ff;
     --warm-black: #282623;
     --black: #201e1c;
-    --grey: #bababa;
+
+    --grey: #747474;
+    --secondary-grey: #bababa;
+    
     --off-white: #faf8f7;
     --just-white: #fff;
+   
 
     --sm:1.4rem;
     --md:1.6rem;
@@ -107,6 +111,195 @@ html{
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
 }
+
+.container{
+    width:100%;
+    height: auto;
+    background-color:var(--off-white);
+}
+
+.currency-exchange{
+    width:100%;
+    height:auto;
+    padding-top: 80px;
+    padding-bottom:30px;
+    text-align:center;
+    /* display:flex; */
+    /* flex-direction:column; */
+}
+
+.currency-exchange__article{
+    width:100%;
+}
+
+.background-img{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("./assets/img/Bitcoin.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.currency-exchange__content{
+    width:90%;
+    min-width:288px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.currency-exchange__content .currency-exchange__title{
+    margin-bottom: 30px;
+    font-size:var(--lg);
+    font-weight:bold;
+    font-height: 2.6rem;
+    color: var(--black);
+}
+
+.currency-exchange__content .currency-exchange__detail{
+    margin-bottom: 30px;
+    font-size:var(--sm);
+    font-weight:500;
+    font-height: 1.6rem;
+    color: var(--grey);
+}
+
+
+.currency-exchange-tables__container{
+    display:flex;
+    overflow-x:scroll;
+    /* overflow-x:auto; */
+    scroll-behavior:smooth;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+    /* width:100%; */
+    /* height: */
+    /* margin-top:16px; */
+}
+
+.currency-exchange-table__container{
+    scroll-snap-align: center;
+    width:60%;
+    min-width:320px;
+    max-width:500px;
+    height:300px;
+    margin:0 auto;
+    font-family: "Inter", sans-serif;
+    text-align:left;
+}
+
+.currency-exchange-table{
+    position:relative;
+    left:20px;
+    width:80%;
+    min-width:230px;
+    max-width:300px;
+    height:180px;
+    margin: 0 auto;
+}
+
+.currency-exchange-table table{
+    width:100%;
+}
+
+.currency-exchange-table .currency-exchange-table__title{
+    margin-bottom: 16px;
+    font-size:var(--md);
+    font-weight:bold;
+    line-height: 2.3rem;
+}
+
+.currency-exchange-table__title--blue{
+    color:var(--secondary-blue);
+}
+
+.currency-exchange-table__title--red{
+    color:var(--bitcoin-orange);
+}
+
+.currency-exchange-table__item{
+    width: 50%;
+    height: 39px;
+    font-size:var(--md);
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--secondary-grey);
+    background-color:var(--just-white);
+}
+
+.currency-exchange-table__item--left{
+    margin-top:0;
+    font-size:var(--md);
+    font-weight:500;
+    color:var(--secondary-grey);
+}
+
+.currency-exchange-table__item--right{
+    margin-top:0;
+    font-size:var(--sm);
+    font-weight:normal;
+    line-height:1.7rem;
+    color:var(--grey);
+}
+
+.currency-exchange-table__chart--up{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background-image:url("./assets/icons/trending-up.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;    
+}
+
+.currency-exchange-table__chart--down{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background-image:url("./assets/icons/trending-down.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;    
+}
+
+.currency-exchange-table__date{
+    width:70%;
+    margin:0 auto;
+    padding:5px;
+    font-size:var(--sm);
+    font-weight:500;
+    color:var(--black);
+    border-radius:5px;
+}
+
+.currency-exchange-table__date--red{
+    background-color:var(--soft-orange);
+}
+
+.currency-exchange-table__date--blue{
+    background-color:var(--secondary-blue);
+}
+
+.table-go-right{
+    position:absolute;
+    top:50%;
+    width:15px;
+    height:15px;
+    background-image:url("./assets/icons/right-arrow.svg");
+    right:10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;    
+}
+
+.table-go-left{
+    transform: rotateZ(180deg);
+    left:-40px;
+}
+
 
 /* @media (min-width:320px){ */
 /*     .header__title-container .header__title{ */
