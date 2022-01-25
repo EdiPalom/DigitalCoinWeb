@@ -1,0 +1,17 @@
+/* .discover-it{ */
+/*     margin:0 auto; */
+/*     height:300px; */
+/* } */
+
+.discover-it__detail{
+    left:calc(50% - 150px);
+    top:calc(50% - 350px);
+}
+
+.currency-exchange-tables__container{
+    margin: 0 200px;    
+}
+
+.plans-cards__slider{
+    justify-content:center;
+}

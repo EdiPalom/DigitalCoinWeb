@@ -271,6 +271,7 @@ html{
     padding:5px;
     font-size:var(--sm);
     font-weight:500;
+    text-align:center;
     color:var(--black);
     border-radius:5px;
 }
@@ -335,6 +336,9 @@ html{
 }
 
 .product-cards__container{
+    /* width:80%; */
+    /* display:flex; */
+    /* flex-direction:column; */
     width:100%;
     height:auto;
     min-width:288px;
@@ -397,28 +401,38 @@ html{
 }
 
 .discover-it{
+    position:relative;
     width:100%;
     height:300px;
     min-width:280px;
-    max-width:400px;
+    max-width:1440px;
 }
 
 .discover-it__background{
     width:100%;
     height:100%;
     text-align:center;
-    background-image:url("./assets/img/bitcoinbaby.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
+    /* background-image:url("./assets/img/bitcoinbaby.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
+    /* background-position:center; */
 }
 
 .discover-it__detail{
+    position:absolute;
+    left:calc(50% - 80px);
+    top: calc(50% - 150px);
     display:inline-block;
     font-size:var(--lg);
     font-weight:bold;
     color:var(--just-white);
     margin-top:calc(50% - 140px);
+}
+
+.discover-it__img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
 }
 
 .plans{
@@ -547,6 +561,36 @@ html{
     vertical-align: middle;
 }
 
+.main-footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    height:150px;
+    padding-left: 10px;
+    background-color:var(--bitcoin-orange);
+}
+
+.main-footer__list{
+    font-size:var(--md);
+    font-weight:500;
+    line-weight:1.8rem;
+    list-style-type:none;
+}
+
+.main-footer__item{
+    margin:15px 0;
+}
+
+.main-footer__item a{
+    text-decoration: none;
+    color:var(--just-white);
+}
+
+.main-footer__logo{
+    width:100px;
+    height:100px;
+}
 
 
 /* @media (min-width:320px){ */

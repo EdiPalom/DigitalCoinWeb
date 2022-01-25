@@ -1,0 +1,12 @@
+.currency-exchange-tables__container{
+    margin: 0 50px;    
+}
+
+/* .discover-it{ */
+/*     height:400px; */
+/* } */
+
+.discover-it__detail{
+    left:calc(50% - 100px);
+    top:calc(50% - 200px);
+}

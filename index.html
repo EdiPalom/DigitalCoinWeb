@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./styles.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="./css/mobile-m.css" type="text/css" media="(min-width: 333px)" />
+    <link rel="stylesheet" href="./css/mobile-l.css" type="text/css" media="(min-width: 423px)" />
+    <link rel="stylesheet" href="./css/tablet.css" type="text/css" media="(min-width: 523px)" />
+    <link rel="stylesheet" href="./css/laptop.css" type="text/css" media="(min-width: 930px)" />
   </head>
   
   <body>
@@ -150,9 +155,7 @@
               <p class="product-card__content">Nuestra API toma informaci&oacuten minuto a minuto sobre las tasas que m&aacutes determinan el comportamiento</p>
             </div>
           </article>
-        </section>
 
-        <section class="product-cards__container">
           <article class="product-card">
             <header class="product-card__header">
               <span class="product-card__icon
@@ -165,9 +168,7 @@
               </p>
             </div>
           </article>
-        </section>
 
-        <section class="product-cards__container">
           <article class="product-card">
             <header class="product-card__header">
               <span class="product-card__icon
@@ -180,9 +181,7 @@
               </p>
             </div>
           </article>
-        </section>
 
-        <section class="product-cards__container">
           <article class="product-card">
             <header class="product-card__header">
               <span class="product-card__icon
@@ -199,7 +198,12 @@
       </section>
       
       <section class="discover-it">
+
         <div class="discover-it__background">
+          <picture>
+            <source media="(min-width: 523px)" srcset="./assets/img/bitcoinbaby2x.jpg">
+            <img class="discover-it__img" src="./assets/img/bitcoinbaby.jpg" alt="enjoy-img" />
+          </picture>
           <span class="discover-it__detail">Con&oacutecelo hoy.</span>
         </div>
       </section>
@@ -278,7 +282,19 @@
         </article>
       </section>
       
-      <footer></footer>
+      <footer class="main-footer">
+        <section class="main-footer__section">
+          <ul class="main-footer__list">
+            <li class="main-footer__item"><a href="">Linkedin</a></li>
+            <li class="main-footer__item"><a href="">Crunchbase</a></li>
+            <li class="main-footer__item"><a href="">Hackernews</a></li>
+          </ul>
+        </section>
+
+        <section class="main-footer__section">
+          <img class="main-footer__logo" alt="Logo Empresa" src="./assets/img/logo-footer.svg"/>
+        </section>
+      </footer>
     </main>
   </body>
 </html>

@@ -1,0 +1,8 @@
+.currency-exchange-table__container{
+    margin: 0 30px;
+}
+
+.discover-it__detail{
+    left:calc(50% - 100px);
+    top:calc(50% - 180px);
+}
