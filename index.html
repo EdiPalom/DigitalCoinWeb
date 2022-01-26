@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Batabit</title>
+	<title>Supreme Bit</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,24 +22,35 @@
 	<header class="header">
       <img class="header__logo" alt="" src="./assets/img/logo.svg"/>
       <div class="header__title-container">
-        <h1 class="header__title">La pr&oacutexima revoluci&oacuten en el intercambio de criptomonedas.</h1>
-        <p class="header__subtitle">Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+        <h1 class="header__title">Aprende a invertir en criptomonedas a un s&oacutelo click.</h1>
+        <p class="header__subtitle">Te damos el mejor aprendizaje para que logres excelentes resultados.</p>
         <a href="#plans" class="header__button">Conoce Nuestros Planes
           <span class="header__icon"></span></a>
       </div>
     </header>
     
-    <main class="container">
+    <main class="main-container">
       <section class="currency-exchange">
         <article class="currency-exchange__article">
-          <div class="background-img"></div>
+          <div class="bitcard">
+            <p class="bitcard__detail">
+              Administra tus wallets digitales f&aacutecil y r&aacutepido.
+            </p>
+            <div class="bitcard__image">
+              <picture>
+                <source media="(min-width:523px)" srcset="./assets/img/bitcard_md.png">
+                  <img class="bitcard__image" src="./assets/img/bitcard_sm.png" alt="bitcard">
+              </picture>
+            </div>
+          </div>
+
           
           <header class="currency-exchange__content">
             <h2 class="currency-exchange__title">
-              Visibilizamos todas las tasas de cambio.
+              Analiza el comportamiento del mercado mundial.
             </h2>
             <p class="currency-exchange__detail">
-              Traemos informaci&oacuten en tiempo real de las casas de cambio y las monedas m&aacutes importantes del mundo
+              Traemos informaci&oacuten en tiempo real de las monedas m&aacutes importantes del mundo
             </p>
           </header>
           
@@ -199,11 +210,13 @@
       
       <section class="discover-it">
 
-        <div class="discover-it__background">
-          <picture>
-            <source media="(min-width: 523px)" srcset="./assets/img/bitcoinbaby2x.jpg">
-            <img class="discover-it__img" src="./assets/img/bitcoinbaby.jpg" alt="enjoy-img" />
-          </picture>
+        <div id="coin" class="discover-it__background">
+          <!-- <picture> -->
+          <!--   <source media="(min-width: 523px)" srcset="./assets/img/bitcoinbaby2x.jpg"> -->
+          <!--   <img class="discover-it__img" src="./assets/img/bitcoinbaby.jpg" alt="enjoy-img" /> -->
+              <!-- </picture> -->
+
+          <a href="#coin" id="bitcoin-animation"></a>
           <span class="discover-it__detail">Con&oacutecelo hoy.</span>
         </div>
       </section>

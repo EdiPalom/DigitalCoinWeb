@@ -6,6 +6,18 @@
   Otros
 */
 
+@keyframes bitcoin_x
+{
+    from {background-position-x: 0px;}
+    to {background-position-x: -1750px;}
+}
+
+@keyframes bitcoin_y
+{
+    from {background-position-y: 0px;}
+    to {background-position-y: -1400px;}
+}
+
 :root{
     --bitcoin-orange: #f7931a;
     --soft-orange: #ffe9d5;
@@ -13,6 +25,8 @@
     --soft-blue: #e7f5ff;
     --warm-black: #282623;
     --black: #201e1c;
+    --secondary-black: #222229;
+    /* --secondary-black:#333; */
 
     --grey: #747474;
     --secondary-grey: #bababa;
@@ -47,7 +61,7 @@ html{
     height: 33.4rem;    
     text-align:center;
     align-items:center;
-    background:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    background-color:var(--secondary-black);
 }
 
 .header__logo{
@@ -89,15 +103,17 @@ html{
     display:block;
     margin-top:35px;
     padding:15px;
-    width:229px;
+    width:231px;
     height:5rem;
     font-size:var(--sm);
     font-weight:bold;
     text-decoration:none;
-    color:var(--black);
-    background-color: var(--off-white);
-    border:none;
-    border-radius: 5px;
+    color:var(--just-white);
+    /* background-color: var(--off-white); */
+    background-color:#222229;
+    border:4px solid var(--bitcoin-orange);
+    border-radius:5px;
+    cursor:pointer;
     /* Shadows */
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
     -webkit-box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
@@ -112,10 +128,11 @@ html{
     background-image: url("./assets/icons/down-arrow.svg");
 }
 
-.container{
+.main-container{
     width:100%;
     height: auto;
-    background-color:var(--off-white);
+    /* background-color:var(--off-white); */
+    background-color:#333;
 }
 
 .currency-exchange{
@@ -124,6 +141,7 @@ html{
     padding-top: 80px;
     padding-bottom:30px;
     text-align:center;
+    background-color:var(--warm-black);
     /* display:flex; */
     /* flex-direction:column; */
 }
@@ -132,15 +150,37 @@ html{
     width:100%;
 }
 
-.background-img{
-    width:200px;
-    height:200px;
+/* .background-img{ */
+/*     width:200px; */
+/*     height:200px; */
+/*     margin: 0 auto; */
+/*     margin-bottom: 50px; */
+/*     background-image: url("./assets/img/bitcard_md.png"); */
+/*     background-repeat: no-repeat; */
+/*     background-size:cover; */
+/*     background-position:center; */
+/* } */
+
+.bitcard{
+    width:90%;
+    min-width:288px;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.bitcard__detail{
+    width:100%;
+    margin-bottom:20px;
+    font-size:var(--lg);
+    font-weight:bold;
+    color:var(--just-white);
+}
+
+.bitcard__image{
+    width:740px;
+    max-width:100%;
     margin: 0 auto;
-    margin-bottom: 50px;
-    background-image: url("./assets/img/Bitcoin.svg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
+    margin-bottom: 30px;
 }
 
 .currency-exchange__content{
@@ -155,7 +195,7 @@ html{
     font-size:var(--lg);
     font-weight:bold;
     font-height: 2.6rem;
-    color: var(--black);
+    color: var(--just-white);
 }
 
 .currency-exchange__content .currency-exchange__detail{
@@ -403,10 +443,11 @@ html{
 .discover-it{
     position:relative;
     width:100%;
-    height:300px;
+    height:350px;
     min-width:280px;
     max-width:1440px;
 }
+
 
 .discover-it__background{
     width:100%;
@@ -433,6 +474,20 @@ html{
     width:100%;
     height:300px;
     object-fit:cover;
+}
+
+#bitcoin-animation{
+    display:inline-block;
+    width:90%;
+    max-width:350px;
+    height:350px;
+    background:url("./assets/img/bitcoin_animation.png")center;
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+}
+
+#bitcoin-animation:hover{
+    animation: bitcoin_x 0.8s steps(5) infinite, bitcoin_y 3.2s steps(4) infinite;
 }
 
 .plans{
