@@ -190,6 +190,21 @@ html{
     margin:0 auto;
 }
 
+.ethereum-logo{
+    width:42px;
+    height:63px;
+}
+
+.plan-card__header .stellar{
+    width:288px;
+    filter:invert(100%);
+}
+
+
+.card-container__img{
+    width:90%;
+}
+
 .currency-exchange__content .currency-exchange__title{
     margin-bottom: 30px;
     font-size:var(--lg);
@@ -229,6 +244,25 @@ html{
     margin:0 auto;
     font-family: "Inter", sans-serif;
     text-align:left;
+}
+
+.currency-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    padding:20px 0px;
+    
+    text-align:center;
+    color:var(--black);
+    /* background-color:var(--just-white); */
+    background-image:url("./assets/img/tile2.png");
+    border-radius: 15px;
+
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    scroll-snap-align: center;
 }
 
 .currency-exchange-table{
@@ -287,8 +321,8 @@ html{
 
 .currency-exchange-table__chart--up{
     display:inline-block;
-    width:15px;
-    height:15px;
+    width:30px;
+    height:30px;
     background-image:url("./assets/icons/trending-up.svg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -297,8 +331,8 @@ html{
 
 .currency-exchange-table__chart--down{
     display:inline-block;
-    width:15px;
-    height:15px;
+    width:30px;
+    height:30px;
     background-image:url("./assets/icons/trending-down.svg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -534,15 +568,20 @@ html{
     scroll-snap-type: x proximity;
 }
 
-.plan-card-container{
-    width: 200px;
+.card-container{
+    width: 100%;
     height:250px;
     min-width:190px;
-    max-width:300px;
-    margin: 50px 15px 0;
+
+    max-width:500px;
     border-radius: 15px;
     /* overflow:hidden; */
 
+}
+.card-container--small{
+    width:200px;
+    max-width:300px;
+    margin: 50px 15px 0;
 }
 
 .plan-card--gold{
