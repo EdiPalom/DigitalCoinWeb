@@ -9,13 +9,13 @@
 @keyframes bitcoin_x
 {
     from {background-position-x: 0px;}
-    to {background-position-x: -1750px;}
+    to {background-position-x: -1440px;}
 }
 
 @keyframes bitcoin_y
 {
     from {background-position-y: 0px;}
-    to {background-position-y: -1400px;}
+    to {background-position-y: -1152px;}
 }
 
 :root{
@@ -132,7 +132,7 @@ html{
     width:100%;
     height: auto;
     /* background-color:var(--off-white); */
-    background-color:#333;
+    background-color:#413e4a;
 }
 
 .currency-exchange{
@@ -442,6 +442,7 @@ html{
 
 .discover-it{
     position:relative;
+    margin-top:30px;
     width:100%;
     height:350px;
     min-width:280px;
@@ -478,9 +479,9 @@ html{
 
 #bitcoin-animation{
     display:inline-block;
-    width:90%;
-    max-width:350px;
-    height:350px;
+    width:100%;
+    max-width:288px;
+    height:288px;
     background:url("./assets/img/bitcoin_animation.png")center;
     background-position:0px 0px;
     background-repeat:no-repeat;
@@ -493,12 +494,15 @@ html{
 .plans{
     width:100%;
     height:auto;
+
+    background-color:var(--off-white);
 }
 
 .plans__content{
     width:90%;
     height:auto;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .plans__header{
@@ -530,18 +534,41 @@ html{
     scroll-snap-type: x proximity;
 }
 
-.plan-card{
-    position:relative;
+.plan-card-container{
     width: 200px;
     height:250px;
     min-width:190px;
     max-width:300px;
     margin: 50px 15px 0;
-    padding:0 10px;
+    border-radius: 15px;
+    /* overflow:hidden; */
+
+}
+
+.plan-card--gold{
+    background-image: radial-gradient(circle, #fbe68d, #e5c771, #cfaa56, #b98c3d, #a37025);    
+}
+
+.plan-card--silver{
+     background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+}
+
+.plan-card--copper{
+    background-image: radial-gradient(circle, #fed8c3, #d9ad97, #b4836e, #905b48, #6c3526);
+}
+
+.plan-card{
+    position:relative;
+    width:100%;
+    height:100%;
+    padding:20px 0px;
+    
     text-align:center;
     color:var(--black);
-    background-color:var(--just-white);
+    /* background-color:var(--just-white); */
+    background-image:url("./assets/img/tile2.png");
     border-radius: 15px;
+
     box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     scroll-snap-align: center;
 }
@@ -558,11 +585,14 @@ html{
     color:var(--just-white);
 }
 
+
 .plan-card__title{
-    padding-top: 20px;
+    /* margin-top: 20px; */
     font-size:var(--md);
     font-weight:500;
-    font-height:2.6rem;
+    line-height:2.6rem;
+    color:var(--just-white);
+    background-color:#282727;
 }
 
 .plan-card__body{
@@ -576,15 +606,35 @@ html{
 }
 
 .plan-card__price{
+    width:80px;
+    margin:0 auto;
+    padding: 2px;
     font-size:3rem;
     font-weight:bold;
+    color:var(--just-white);
+    background-color:#282827;
+    border-radius:50%;
 }
 
 .plan-card__detail{
     margin-top:12px;
     font-size:var(--sm);
     font-weight:300;
-    color:var(--grey);
+    color:#f9f8ff;
+    padding:0 10px;
+
+}
+
+.plan-card__detail--gold{
+    background-color:#d1ad58;    
+}
+
+.plan-card__detail--silver{
+    background-color:#5e5e5e;    
+}
+
+.plan-card__detail--copper{
+    background-color:#a76957;
 }
 
 .plan-card__footer{
@@ -597,13 +647,24 @@ html{
     margin-top:20px;
     font-size:var(--md);
     font-weight:bold;
-    background-color:#faf8f7;
-    color:var(--black);
+    background-color:#101010;
+    color:var(--off-white);
     border:2px solid var(--bitcoin-orange);
     border-radius:4px;
     cursor:pointer;
 }
 
+.plan-card__button--silver{
+    border-color: #b5b5b5;
+}
+
+.plan-card__button--gold{
+    border-color: #e6c872;;
+}
+
+.plan-card__button--copper{
+    border-color: #c3947f;
+}
 
 .plan-card__button--icon{
     display:inline-block;
@@ -623,7 +684,7 @@ html{
     width:100%;
     height:150px;
     padding-left: 10px;
-    background-color:var(--bitcoin-orange);
+    background-color:#fdb565;
 }
 
 .main-footer__list{
@@ -639,6 +700,7 @@ html{
 
 .main-footer__item a{
     text-decoration: none;
+    font-weight:bold;
     color:var(--just-white);
 }
 
