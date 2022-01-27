@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="Zumo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.13489242"
+     inkscape:rotation="5"
+     inkscape:cx="298.12089"
+     inkscape:cy="558.08596"
+     inkscape:window-width="1280"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer6" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect526"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <rect
+       style="fill:#333333;stroke:#ffffff;stroke-width:6.43599;stroke-linecap:round;stroke-linejoin:round"
+       id="rect79"
+       width="184.37744"
+       height="151.59154"
+       x="2.705512"
+       y="21.608559" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.63569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -367.09299,23.402708 c 71.75535,2.104494 107.54086,20.668968 105.89098,32.837559 -1.78138,13.138693 -30.12946,211.361443 -40.2961,219.539583 -10.19066,8.19745 -109.86484,7.63346 -118.69763,0.53846 -8.83278,-7.09499 -56.88771,-202.480649 -57.57069,-217.037135 0.71576,-5.648196 29.94083,-33.65414 110.67344,-35.878467 z"
+       id="path721"
+       sodipodi:nodetypes="csszcc"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#909090;fill-opacity:1;stroke:none;stroke-width:0.515787px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -465.93087,61.845724 c 1.42475,-9.549351 29.00127,-28.344743 97.46065,-30.376279 51.20952,-1.519645 100.96217,16.603716 96.25582,26.090206 -5.99647,12.086954 -38.34184,20.545923 -92.46482,20.769603 -33.75796,0.13949 -103.38206,-2.20455 -101.25165,-16.48353 z"
+       id="path5679"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#ff8e08;fill-opacity:0.778537;stroke:none;stroke-width:2.66099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -451.41884,138.25998 c 1.89131,11.17647 32.88549,121.04905 38.32951,125.00208 12.51743,9.0892 25.36251,10.37801 46.29709,11.17219 20.81276,0.78957 50.6015,0.20698 56.14507,-8.73662 5.36383,-8.65357 26.4335,-117.07971 27.98493,-134.38172 0.8146,-9.0847 -1.86591,-18.11854 -8.85955,-21.35853 -15.92059,-7.37563 -32.58446,16.02422 -50.13054,16.05364 -14.37286,0.024 -26.95994,-15.54309 -41.10828,-13.01252 -12.11436,2.16677 -16.84754,22.65799 -29.15415,22.65188 -14.39019,-0.008 -20.60788,-31.62136 -34.06384,-26.52086 -9.23672,3.5012 -7.04013,19.6761 -5.44024,29.13046 z"
+       id="path10829"
+       sodipodi:nodetypes="sssssaaaaas"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 5"
+     sodipodi:insensitive="true">
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0.778537;stroke:none;stroke-width:3.63569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path21452"
+       cx="-343.85648"
+       cy="240.75044"
+       rx="14.682144"
+       ry="14.114588"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0.778537;stroke:none;stroke-width:3.63569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path21454"
+       cx="-342.42194"
+       cy="206.81802"
+       rx="8.221837"
+       ry="8.2069111"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0.778537;stroke:none;stroke-width:3.63569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path21456"
+       cx="-321.32581"
+       cy="228.1402"
+       rx="3.6249585"
+       ry="3.6998742"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+    <path
+       style="fill:#ffa63e;fill-opacity:1;stroke:none;stroke-width:0.22827px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -388.71772,107.45081 c 0,0 -0.67451,-15.917167 -6.19572,-18.532746 -2.68314,-1.2711 -6.62879,1.36295 -6.72721,4.393072 -0.20004,6.15834 12.92293,14.139674 12.92293,14.139674 z"
+       id="path21571"
+       sodipodi:nodetypes="caac"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+    <path
+       style="fill:#ffa63e;fill-opacity:1;stroke:none;stroke-width:0.22827px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -396.56855,108.20205 c 0,0 -9.61377,-12.703794 -15.64213,-11.712054 -2.92963,0.48193 -4.67475,4.893394 -3.03109,7.440894 3.34049,5.17748 18.67322,4.27116 18.67322,4.27116 z"
+       id="path21571-3"
+       sodipodi:nodetypes="caac"
+       inkscape:export-filename="/home/gdev/WebArt/SVG/Zumo.png"
+       inkscape:export-xdpi="7.1811938"
+       inkscape:export-ydpi="7.1811938" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Zumo"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:207.527px;line-height:1.25;font-family:sans-serif;fill:#ffa63e;fill-opacity:1;stroke:#ffa63e;stroke-width:9.67122;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-181.91273"
+       y="248.64372"
+       id="text23699"><tspan
+         sodipodi:role="line"
+         id="tspan23697"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#ffa63e;fill-opacity:1;stroke:#ffa63e;stroke-width:9.67122;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-181.91273"
+         y="248.64372">ZumoBit</tspan></text>
+  </g>
+</svg>
