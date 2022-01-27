@@ -27,7 +27,8 @@
           Supreme Bit tiene los mejores cursos enfocado en el mundo crypto.
         </p>
         <a href="#plans" class="header__button">Conoce Nuestros Planes
-          <span class="header__icon"></span></a>
+          <span class="header__icon"></span>
+        </a>
       </div>
     </header>
     
@@ -120,7 +121,8 @@
                 </article>              
               </div>              
             </div>
-
+          </section>
+        </article>
       </section>
       
       <section class="product-detail">
@@ -130,57 +132,73 @@
         </div>
 
         <section class="product-cards__container">
-          <article class="product-card">
-            <header class="product-card__header">
-              <span class="product-card__icon
-                           product-card__icon--clock"></span>
-              <p class="product-card__title">Tiempo real</p>
-            </header>
-            <div class="product-card__body">
-              <p class="product-card__content">Nuestra API toma informaci&oacuten minuto a minuto sobre las tasas que m&aacutes determinan el comportamiento</p>
-            </div>
-          </article>
 
-          <article class="product-card">
-            <header class="product-card__header">
-              <span class="product-card__icon
-                           product-card__icon--eye"></span>
-              <p class="product-card__title">No hay tasas escondidas</p>
-            </header>
-            <div class="product-card__body">
-              <p class="product-card__content">
-                Ni en la compra ni al momento de salir,<br/>Batabit siempre te muestra el costo real de lo que est&aacutes adquiriendo
-              </p>
-            </div>
-          </article>
+          <div class="scene">
+            <a class="next-button" onclick="next_face()" href="javascript:void(0)"></a>
 
-          <article class="product-card">
-            <header class="product-card__header">
-              <span class="product-card__icon
-                           product-card__icon--dollar"></span>
-              <p class="product-card__title">Compara monedas</p>
-            </header>
-            <div class="product-card__body">
-              <p class="product-card__content">
-                No m&aacutes rumores, con Batabit sabr&aacutes el valor real de cada moneda en el mercado actual.
-              </p>
+            <a class="next-button next-button--left" onclick="prev_face()" href="javascript:void(0)"></a>
+            <div class="car">
+              <div class="car_face">
+                <article class="product-card">
+                  <header class="product-card__header">
+                    <span class="product-card__icon
+                                 product-card__icon--clock"></span>
+                    <p class="product-card__title">Tiempo real</p>
+                  </header>
+                  <div class="product-card__body">
+                    <p class="product-card__content">Nuestra API toma informaci&oacuten minuto a minuto sobre las tasas que m&aacutes determinan el comportamiento</p>
+                  </div>
+                </article>
+              </div>
+              <div class="car_face">
+                <article class="product-card">
+                  <header class="product-card__header">
+                    <span class="product-card__icon
+                                 product-card__icon--eye"></span>
+                    <p class="product-card__title">No hay tasas escondidas</p>
+                  </header>
+                  <div class="product-card__body">
+                    <p class="product-card__content">
+                      Ni en la compra ni al momento de salir,<br/>Batabit siempre te muestra el costo real de lo que est&aacutes adquiriendo
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="car_face">
+                <article class="product-card">
+                  <header class="product-card__header">
+                    <span class="product-card__icon
+                                 product-card__icon--dollar"></span>
+                    <p class="product-card__title">Compara monedas</p>
+                  </header>
+                  <div class="product-card__body">
+                    <p class="product-card__content">
+                      No m&aacutes rumores, con Batabit sabr&aacutes el valor real de cada moneda en el mercado actual.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              
+              <div class="car_face">
+                <article class="product-card">
+                  <header class="product-card__header">
+                    <span class="product-card__icon
+                                 product-card__icon--check"></span>
+                    <p class="product-card__title">
+                      Informaci&oacuten confiable
+                    </p>
+                  </header>
+                  <div class="product-card__body">
+                    <p class="product-card__content">
+                      Nuestras fuentes est&aacuten 100% verificadas y continuamos auditando su contenido mientras se actualizan.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              
             </div>
-          </article>
+          </div>
 
-          <article class="product-card">
-            <header class="product-card__header">
-              <span class="product-card__icon
-                           product-card__icon--check"></span>
-              <p class="product-card__title">
-                Informaci&oacuten confiable
-              </p>
-            </header>
-            <div class="product-card__body">
-              <p class="product-card__content">
-                Nuestras fuentes est&aacuten 100% verificadas y continuamos auditando su contenido mientras se actualizan.
-              </p>
-            </div>
-          </article>
         </section>
       </section>
       
@@ -192,8 +210,9 @@
           <!--   <img class="discover-it__img" src="./assets/img/bitcoinbaby.jpg" alt="enjoy-img" /> -->
               <!-- </picture> -->
 
-          <a href="#coin" id="bitcoin-animation"></a>
           <span class="discover-it__detail">Con&oacutecelo hoy.</span>
+          <a href="javascript:void(0)" id="bitcoin-animation"></a>
+
         </div>
       </section>
       
@@ -229,7 +248,7 @@
                   <button class="plan-card__button
                                  plan-card__button--silver">
                     Escoger este
-                    <span class="plan-card__button--icon"></span>
+                    <span class="card-button__icon"></span>
                   </button>
                 </footer>
               </article>
@@ -257,7 +276,7 @@
                   <button class="plan-card__button
                                  plan-card__button--gold">
                     Escoger este
-                    <span class="plan-card__button--icon"></span>
+                    <span class="card-button__icon"></span>
                   </button>
                 </footer>
               </article>
@@ -283,7 +302,7 @@
                   <button class="plan-card__button
                                  plan-card__button--copper">
                     Escoger este
-                    <span class="plan-card__button--icon"></span>
+                    <span class="card-button__icon"></span>
                   </button>
                 </footer>
               </article>
@@ -308,5 +327,7 @@
         </section>
       </footer>
     </main>
+
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
