@@ -3,15 +3,53 @@
 /*     height:300px; */
 /* } */
 
+.header .header__title-container .header__title{
+	left: calc(50% - 300px);
+	top: 11%;
+}
+
+.header .header__title-container .header__subtitle {
+	left: calc(50% - 230px);
+}
+
 .discover-it__detail{
-    left:calc(50% - 150px);
-    top:calc(50% - 350px);
+    left:calc(50% - 80px);
+    top:calc(50% - 250px);
+    margin-top:50px;
+    margin-bottom:30px;
 }
 
 .currency-exchange-tables__container{
-    margin: 0 200px;    
+    margin: 0;    
 }
 
 .plans-cards__slider{
     justify-content:center;
 }
+
+.product-cards__container .scene{
+    width:100%;
+    max-width:1000px;
+}
+
+.scene .car{
+    transform: translateZ(-600px);
+}
+
+.scene .car .car_face{
+    width:100%;
+    height:100%;
+}
+
+.scene .next-button--left{
+    left:50px;
+}
+
+.scene .next-button--right{
+    left: calc(50% + 290px);
+}
+
+.car_face:nth-child(1){transform: rotateY(0deg) translateZ(384px);}
+.car_face:nth-child(2){transform: rotateY(90deg) translateZ(384px);}
+.car_face:nth-child(3){transform: rotateY(180deg) translateZ(384px);}
+.car_face:nth-child(4){transform: rotateY(270deg) translateZ(384px);}

@@ -6,7 +6,13 @@
 /*     height:400px; */
 /* } */
 
+.discover-it{
+    margin:50px 0;
+    margin-top:100px;
+}
+
 .discover-it__detail{
-    left:calc(50% - 100px);
-    top:calc(50% - 200px);
+    position:absolute;
+    left:calc(50% - 80px);
+    top:calc(50% - 270px);
 }

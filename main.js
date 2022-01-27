@@ -7,7 +7,6 @@ let car_index = 0;
 product_cards.forEach(card =>{
     card.addEventListener('click',()=>{
         carousel.style.transform=`translateZ(-300px) rotateY(${car_index *-90}deg)`;
-        console.log('event');
     });    
 });
 

@@ -78,14 +78,14 @@ html{
 
 .bitcoin--lay{
     left:calc(50% + 50px);
-    top:17%;
+    top:14%;
     width:52px;
     height:52px;
 }
 
 .bitcoin--rotated{
-    left:calc(50% - 100px);
-    top:27%;
+    left:calc(50% - 110px);
+    top:21%;
  
     width:58px;
     height:58px;
@@ -97,7 +97,7 @@ html{
     width:32px;
     height:32px;
     left:calc(50% - 30px);
-    top:8%;
+    top:7%;
 }
 
 .header__title-container{
@@ -111,6 +111,8 @@ html{
 
 .header__title-container .header__title{
     /* font-size:2.4rem; */
+    position:absolute;
+    left:0;
     font-size:var(--lg);
     font-weight: bold;
     line-height:2.6rem;
@@ -119,6 +121,10 @@ html{
 }
 
 .header__title-container .header__subtitle{
+    position:absolute;
+    left:0;
+    padding:0 10px;
+    top:17%;
     margin-top:25px;
     font-size:var(--sm);
     font-weight:500;
@@ -504,7 +510,7 @@ html{
 .product-card__content{
     font-size:1.4rem;
     font-weight: normal;
-    font-height: 1.6rem;
+    line-height: 1.6rem;
     color: #f0eff8;
     text-shadow: 1px 1px 1px #000000
 }
@@ -514,7 +520,7 @@ html{
     margin-top:30px;
     margin-bottom:30px;
     width:100%;
-    height:350px;
+    height:auto;
     min-width:280px;
     max-width:1440px;
 }
@@ -813,8 +819,8 @@ html{
     /* width:1000px; */
     /* height:500px; */
     position:absolute;
-    width:300px;
-    height:180px;
+    width:90%;
+    height:90%;
     /* left:10px; */
     /* top:10px; */
     /* border:2px solid white; */
