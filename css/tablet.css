@@ -3,9 +3,8 @@
 /*     height:300px; */
 /* } */
 
-.header .header__title-container .header__title{
-	left: calc(50% - 300px);
-	top: 11%;
+.header .header__title-container{
+    margin-top:40px;
 }
 
 .header .header__title-container .header__subtitle {

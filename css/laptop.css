@@ -1,6 +1,6 @@
 
-.header .header__title-container .header__title{
-    top:calc(50% - 150px);
+.header .header__title-container{
+    margin-top:40px;
 }
 
 .header .header__title-container .header__subtitle{

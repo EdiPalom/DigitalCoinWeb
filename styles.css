@@ -67,26 +67,22 @@ html{
 .header__logo{
     width:200px;
     height:50px;
-    margin-top: 4px;
+    margin-top: 30px;
     /* align-self: center; */
 }
 
 .bitcoin__image{
-    position:absolute;
     opacity:0.9;
 }
 
 .bitcoin--lay{
-    left:calc(50% + 50px);
-    top:14%;
+    float:left;
     width:52px;
     height:52px;
 }
 
 .bitcoin--rotated{
-    left:calc(50% - 110px);
-    top:21%;
- 
+    float:right;
     width:58px;
     height:58px;
 
@@ -106,13 +102,11 @@ html{
     max-width: 900px;
 
     height:21.8rem;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .header__title-container .header__title{
     /* font-size:2.4rem; */
-    position:absolute;
-    left:0;
     font-size:var(--lg);
     font-weight: bold;
     line-height:2.6rem;
@@ -121,8 +115,6 @@ html{
 }
 
 .header__title-container .header__subtitle{
-    position:absolute;
-    left:0;
     padding:0 10px;
     top:17%;
     margin-top:25px;
